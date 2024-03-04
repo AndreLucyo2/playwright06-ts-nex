@@ -3,7 +3,18 @@
   "version": "1.0.0",
   "description": "node:",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "play:run": "npx playwright test",
+    "play:runHead": "npx playwright test --headed",
+    "play:runHeadAll": "npx playwright test --headed --browser=all",
+    "play:runDebug": "npx playwright test --debug",
+    "play:runChromOnly": "npx playwright test --project=chromium",
+    "play:openUI": "npx playwright test --ui",
+    "play:codeGen": "npx playwright codegen",
+    "play:noParalel": "npx playwright test --workers 1",
+    "play:update-snapshots": "npx playwright --update-snapshots",
+    "play:showReport": "npx playwright show-report"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AndreLucyo2/playwright06-ts-nex.git"
