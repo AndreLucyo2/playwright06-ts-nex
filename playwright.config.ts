@@ -4,7 +4,7 @@ import { defineConfig, devices } from '@playwright/test';
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
-// require('dotenv').config();
+require('dotenv').config();
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -38,7 +38,7 @@ export default defineConfig({
     // Basic Options
     //----------------------------------------------------------------------------------------------------------
     /* Base URL to use in actions like `await page.goto('/')`. */
-    // baseURL: 'http://127.0.0.1:3000',
+    baseURL: process.env.BASE_URL,
 
     /* Populates context with given storage state. This option can be used to initialize context with logged-in information obtained via browserContext.storageState(). */
     //storageState: 'storage-state.json',
@@ -83,7 +83,7 @@ export default defineConfig({
     isMobile: false,
 
     /* Whether or not to enable JavaScript in the context. Defaults to true. */
-    javaScriptEnabled: false,
+    //javaScriptEnabled: true,
 
 
 
@@ -91,7 +91,7 @@ export default defineConfig({
     // Network Options
     //----------------------------------------------------------------------------------------------------------
     /*Whether to emulate network being offline. Defaults to false. */
-    offline: true,
+    //offline: false,
 
     /* Timeout for each navigation action in milliseconds. Defaults to 0 (no timeout). */
     //navigationTimeout: 3000,
@@ -109,9 +109,13 @@ export default defineConfig({
     ignoreHTTPSErrors: true,
 
     /* An object containing additional HTTP headers to be sent with every request. Defaults to none. */
-    extraHTTPHeaders: {
-      'X-My-Header': 'none',
-    },
+    // extraHTTPHeaders: {
+    //   // We set this header per GitHub guidelines.
+    //   Accept: 'application/vnd.github.v3+json',
+    //   // Add authorization token to all requests.
+    //   // Assuming personal access token available in the environment.
+    //   Authorization: `token ${process.env.API_TOKEN}`,
+    // },
 
     /* Network proxy settings. */
     // proxy: {
