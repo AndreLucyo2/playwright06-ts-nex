@@ -1,0 +1,22 @@
+{
+  "name": "playwright06-ts-nex",
+  "version": "1.0.0",
+  "description": "node:",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreLucyo2/playwright06-ts-nex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreLucyo2/playwright06-ts-nex/issues"
+  },
+  "homepage": "https://github.com/AndreLucyo2/playwright06-ts-nex#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.24"
+  }
+}
