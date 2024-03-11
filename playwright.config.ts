@@ -15,7 +15,8 @@ export default defineConfig({
   //Vai executar au carregar o playwright
   //globalSetup: "./global-setup.ts", //dados precarregados
 
-  testDir: './tests',
+  //testDir: './tests',
+  testDir: './e2e',
 
   /* Run tests in files in parallel */
   fullyParallel: true,
