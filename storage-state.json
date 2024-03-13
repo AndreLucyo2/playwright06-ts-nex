@@ -1,0 +1,45 @@
+{
+  "cookies": [
+    {
+      "name": "regionConfigs",
+      "value": "{%22locale%22:%22pt-BR%22}",
+      "domain": "www.dev.web.nextar.com.br",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AMP_MKTG_468bddd807",
+      "value": "JTdCJTdE",
+      "domain": ".nextar.com.br",
+      "path": "/",
+      "expires": 1741830582,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AMP_468bddd807",
+      "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjI4MGRmN2IwNi05MDU2LTQ5ZWUtYjlhNC02MTExNTNiYjYxNGIlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzEwMjk0NTgyMDk1JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTcxMDI5NDU4MjE2MSUyQyUyMmxhc3RFdmVudElkJTIyJTNBMCU3RA==",
+      "domain": ".nextar.com.br",
+      "path": "/",
+      "expires": 1741830582,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.dev.web.nextar.com.br",
+      "localStorage": [
+        {
+          "name": "AMP_unsent_468bddd807",
+          "value": "[{\"device_id\":\"80df7b06-9056-49ee-b9a4-611153bb614b\",\"session_id\":1710294582095,\"time\":1710294582161,\"platform\":\"Web\",\"os_name\":\"Chrome\",\"os_version\":\"123.0.0.0\",\"device_model\":\"Windows\",\"language\":\"pt-BR\",\"ip\":\"$remote\",\"insert_id\":\"d644475e-2488-49cf-a4d1-5c9a9df5645c\",\"event_type\":\"$identify\",\"user_properties\":{\"$setOnce\":{\"initial_utm_campaign\":\"EMPTY\",\"initial_utm_content\":\"EMPTY\",\"initial_utm_id\":\"EMPTY\",\"initial_utm_medium\":\"EMPTY\",\"initial_utm_source\":\"EMPTY\",\"initial_utm_term\":\"EMPTY\",\"initial_referrer\":\"EMPTY\",\"initial_referring_domain\":\"EMPTY\",\"initial_dclid\":\"EMPTY\",\"initial_gbraid\":\"EMPTY\",\"initial_gclid\":\"EMPTY\",\"initial_fbclid\":\"EMPTY\",\"initial_ko_click_id\":\"EMPTY\",\"initial_li_fat_id\":\"EMPTY\",\"initial_msclkid\":\"EMPTY\",\"initial_rtd_cid\":\"EMPTY\",\"initial_ttclid\":\"EMPTY\",\"initial_twclid\":\"EMPTY\",\"initial_wbraid\":\"EMPTY\"},\"$unset\":{\"utm_campaign\":\"-\",\"utm_content\":\"-\",\"utm_id\":\"-\",\"utm_medium\":\"-\",\"utm_source\":\"-\",\"utm_term\":\"-\",\"referrer\":\"-\",\"referring_domain\":\"-\",\"dclid\":\"-\",\"gbraid\":\"-\",\"gclid\":\"-\",\"fbclid\":\"-\",\"ko_click_id\":\"-\",\"li_fat_id\":\"-\",\"msclkid\":\"-\",\"rtd_cid\":\"-\",\"ttclid\":\"-\",\"twclid\":\"-\",\"wbraid\":\"-\"}},\"event_id\":0,\"library\":\"amplitude-ts/1.13.4\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36\"}]"
+        }
+      ]
+    }
+  ]
+}

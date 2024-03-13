@@ -12,8 +12,8 @@ require('dotenv').config();
  */
 export default defineConfig({
 
-  //Vai executar au carregar o playwright
-  //globalSetup: "./global-setup.ts", //dados precarregados
+  //Vai executar ao carregar o playwright
+  globalSetup: "./global-setup", //dados precarregados
 
   //testDir: './tests',
   testDir: './e2e',
@@ -42,8 +42,7 @@ export default defineConfig({
     baseURL: process.env.BASE_URL,
 
     /* Populates context with given storage state. This option can be used to initialize context with logged-in information obtained via browserContext.storageState(). */
-    //storageState: 'storage-state.json',
-
+    storageState: 'storage-state.json',//Ver video: https://youtu.be/QJL6uV7z-8I
 
     //----------------------------------------------------------------------------------------------------------
     // Emulation Options

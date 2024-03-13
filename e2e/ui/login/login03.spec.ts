@@ -3,6 +3,7 @@ import { test, expect } from '@playwright/test';
 const BASE_URL = 'https://www.dev.web.nextar.com.br';
 //const BASE_API_URL = 'https://dev.api.web.nextar.com.br';
 
+
 test('Teste gerado automaticamente', async ({ page }) => {
 
     await page.goto(BASE_URL + '/login');
